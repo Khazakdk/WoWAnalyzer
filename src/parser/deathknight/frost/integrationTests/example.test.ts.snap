@@ -477,7 +477,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -490,7 +490,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -503,7 +503,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -963,7 +963,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -976,7 +976,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -989,7 +989,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -1097,7 +1097,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -1110,7 +1110,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -1123,7 +1123,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -1340,7 +1340,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -1353,7 +1353,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -1366,7 +1366,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -1662,6 +1662,202 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
               }
             />
           </tr>
+          <tr>
+            <td
+              style={
+                Object {
+                  "width": "35%",
+                }
+              }
+            >
+              <a
+                href="http://wowhead.com/spell=279302"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#fff",
+                  }
+                }
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  className="icon game "
+                  src="//render-us.worldofwarcraft.com/icons/56/achievement_boss_sindragosa.jpg"
+                  style={
+                    Object {
+                      "height": undefined,
+                      "marginTop": undefined,
+                    }
+                  }
+                />
+                 
+                Frostwyrm's Fury
+              </a>
+            </td>
+            <td
+              className="text-center"
+              style={
+                Object {
+                  "minWidth": 80,
+                }
+              }
+            >
+              0.00
+            </td>
+            <td
+              className="text-right"
+              style={
+                Object {
+                  "minWidth": 110,
+                }
+              }
+            >
+              0
+              /1
+               
+              casts
+            </td>
+            <td
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            >
+              <div
+                className="flex performance-bar-container"
+              >
+                <div
+                  className="flex-sub performance-bar"
+                  style={
+                    Object {
+                      "backgroundColor": "#ff8000",
+                      "width": "0%",
+                    }
+                  }
+                />
+              </div>
+            </td>
+            <td
+              className="text-left"
+              style={
+                Object {
+                  "minWidth": 50,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              0.00%
+            </td>
+            <td
+              style={
+                Object {
+                  "color": "orange",
+                  "width": "25%",
+                }
+              }
+            >
+              shared.castEfficiency.canBeImproved
+            </td>
+          </tr>
+          <tr>
+            <td
+              style={
+                Object {
+                  "width": "35%",
+                }
+              }
+            >
+              <a
+                href="http://wowhead.com/spell=46585"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#fff",
+                  }
+                }
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  className="icon game "
+                  src="//render-us.worldofwarcraft.com/icons/56/inv_pet_ghoul.jpg"
+                  style={
+                    Object {
+                      "height": undefined,
+                      "marginTop": undefined,
+                    }
+                  }
+                />
+                 
+                Raise Dead
+              </a>
+            </td>
+            <td
+              className="text-center"
+              style={
+                Object {
+                  "minWidth": 80,
+                }
+              }
+            >
+              0.00
+            </td>
+            <td
+              className="text-right"
+              style={
+                Object {
+                  "minWidth": 110,
+                }
+              }
+            >
+              0
+              /1
+               
+              casts
+            </td>
+            <td
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            >
+              <div
+                className="flex performance-bar-container"
+              >
+                <div
+                  className="flex-sub performance-bar"
+                  style={
+                    Object {
+                      "backgroundColor": "#70b570",
+                      "width": "0%",
+                    }
+                  }
+                />
+              </div>
+            </td>
+            <td
+              className="text-left"
+              style={
+                Object {
+                  "minWidth": 50,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              0.00%
+            </td>
+            <td
+              style={
+                Object {
+                  "color": "orange",
+                  "width": "25%",
+                }
+              }
+            />
+          </tr>
         </tbody>
         <tbody>
           <tr>
@@ -1680,7 +1876,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -1693,7 +1889,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -1706,7 +1902,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -2008,7 +2204,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -2021,7 +2217,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -2034,7 +2230,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -2906,7 +3102,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                CPM
+                shared.castEfficiency.cpm
               </dfn>
             </th>
             <th
@@ -2919,7 +3115,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Casts
+                shared.castEfficiency.casts
               </dfn>
             </th>
             <th
@@ -2932,7 +3128,7 @@ exports[`Frost Death Knight integration test: example log CastEfficiency matches
                 onTouchStart={[Function]}
                 style={Object {}}
               >
-                Time on Cooldown
+                shared.castEfficiency.timeOnCooldown
               </dfn>
             </th>
             <th />
@@ -3279,7 +3475,7 @@ exports[`Frost Death Knight integration test: example log DistanceMoved matches 
         className="pad"
       >
         <label>
-          Distance moved
+          shared.distanceMoved.statistic.label
         </label>
         <div
           className="value"
@@ -3358,151 +3554,201 @@ Array [
     "details": null,
     "icon": "inv_chest_plate_warfrontsalliance_c_01.jpg",
     "importance": "major",
-    "issue": <React.Fragment>
-      Your 
-      <ItemLink
-        details={
-          Object {
-            "bonusIDs": Array [
-              1607,
-              4786,
-              6263,
-            ],
-            "icon": "inv_chest_plate_warfrontsalliance_c_01.jpg",
-            "id": 163418,
-            "itemLevel": 420,
-            "quality": 3,
-          }
+    "issue": <WithI18n
+      components={
+        Array [
+          <ItemLink
+            details={
+              Object {
+                "bonusIDs": Array [
+                  1607,
+                  4786,
+                  6263,
+                ],
+                "icon": "inv_chest_plate_warfrontsalliance_c_01.jpg",
+                "id": 163418,
+                "itemLevel": 420,
+                "quality": 3,
+              }
+            }
+            icon={false}
+            id={163418}
+            quality={3}
+          />,
+        ]
+      }
+      defaults="Your <0>{slotName}</0> is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly."
+      id="shared.enchantChecker.suggestions.noEnchant.label"
+      values={
+        Object {
+          "slotName": <WithI18n
+            defaults="Chest"
+            id="common.slots.chest"
+          />,
         }
-        icon={false}
-        id={163418}
-        quality={3}
-      >
-        Chest
-      </ItemLink>
-       is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly.
-    </React.Fragment>,
+      }
+    />,
     "stat": null,
   },
   Object {
     "details": null,
     "icon": "inv_glove_plate_warfrontsalliance_c_01.jpg",
     "importance": "major",
-    "issue": <React.Fragment>
-      Your 
-      <ItemLink
-        details={
-          Object {
-            "bonusIDs": Array [
-              1607,
-              4786,
-            ],
-            "icon": "inv_glove_plate_warfrontsalliance_c_01.jpg",
-            "id": 163414,
-            "itemLevel": 415,
-            "quality": 3,
-          }
+    "issue": <WithI18n
+      components={
+        Array [
+          <ItemLink
+            details={
+              Object {
+                "bonusIDs": Array [
+                  1607,
+                  4786,
+                ],
+                "icon": "inv_glove_plate_warfrontsalliance_c_01.jpg",
+                "id": 163414,
+                "itemLevel": 415,
+                "quality": 3,
+              }
+            }
+            icon={false}
+            id={163414}
+            quality={3}
+          />,
+        ]
+      }
+      defaults="Your <0>{slotName}</0> is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly."
+      id="shared.enchantChecker.suggestions.noEnchant.label"
+      values={
+        Object {
+          "slotName": <WithI18n
+            defaults="Gloves"
+            id="common.slots.gloves"
+          />,
         }
-        icon={false}
-        id={163414}
-        quality={3}
-      >
-        Gloves
-      </ItemLink>
-       is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly.
-    </React.Fragment>,
+      }
+    />,
     "stat": null,
   },
   Object {
     "details": null,
     "icon": "inv_argus_ring01.jpg",
     "importance": "major",
-    "issue": <React.Fragment>
-      Your 
-      <ItemLink
-        details={
-          Object {
-            "bonusIDs": Array [
-              4798,
-              42,
-              1487,
-              5870,
-              4784,
-            ],
-            "icon": "inv_argus_ring01.jpg",
-            "id": 168889,
-            "itemLevel": 440,
-            "quality": 4,
-          }
+    "issue": <WithI18n
+      components={
+        Array [
+          <ItemLink
+            details={
+              Object {
+                "bonusIDs": Array [
+                  4798,
+                  42,
+                  1487,
+                  5870,
+                  4784,
+                ],
+                "icon": "inv_argus_ring01.jpg",
+                "id": 168889,
+                "itemLevel": 440,
+                "quality": 4,
+              }
+            }
+            icon={false}
+            id={168889}
+            quality={4}
+          />,
+        ]
+      }
+      defaults="Your <0>{slotName}</0> is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly."
+      id="shared.enchantChecker.suggestions.noEnchant.label"
+      values={
+        Object {
+          "slotName": <WithI18n
+            defaults="Ring"
+            id="common.slots.ring"
+          />,
         }
-        icon={false}
-        id={168889}
-        quality={4}
-      >
-        Ring
-      </ItemLink>
-       is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly.
-    </React.Fragment>,
+      }
+    />,
     "stat": null,
   },
   Object {
     "details": null,
     "icon": "inv_ring_80_02e.jpg",
     "importance": "major",
-    "issue": <React.Fragment>
-      Your 
-      <ItemLink
-        details={
-          Object {
-            "bonusIDs": Array [
-              1507,
-              5850,
-              4781,
-            ],
-            "icon": "inv_ring_80_02e.jpg",
-            "id": 167523,
-            "itemLevel": 400,
-            "quality": 4,
-          }
+    "issue": <WithI18n
+      components={
+        Array [
+          <ItemLink
+            details={
+              Object {
+                "bonusIDs": Array [
+                  1507,
+                  5850,
+                  4781,
+                ],
+                "icon": "inv_ring_80_02e.jpg",
+                "id": 167523,
+                "itemLevel": 400,
+                "quality": 4,
+              }
+            }
+            icon={false}
+            id={167523}
+            quality={4}
+          />,
+        ]
+      }
+      defaults="Your <0>{slotName}</0> is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly."
+      id="shared.enchantChecker.suggestions.noEnchant.label"
+      values={
+        Object {
+          "slotName": <WithI18n
+            defaults="Ring"
+            id="common.slots.ring"
+          />,
         }
-        icon={false}
-        id={167523}
-        quality={4}
-      >
-        Ring
-      </ItemLink>
-       is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly.
-    </React.Fragment>,
+      }
+    />,
     "stat": null,
   },
   Object {
     "details": null,
     "icon": "inv_cape_cloth_nazjatar_c_01.jpg",
     "importance": "major",
-    "issue": <React.Fragment>
-      Your 
-      <ItemLink
-        details={
-          Object {
-            "bonusIDs": Array [
-              1507,
-              5860,
-              4782,
-            ],
-            "icon": "inv_cape_cloth_nazjatar_c_01.jpg",
-            "id": 167533,
-            "itemLevel": 410,
-            "quality": 4,
-          }
+    "issue": <WithI18n
+      components={
+        Array [
+          <ItemLink
+            details={
+              Object {
+                "bonusIDs": Array [
+                  1507,
+                  5860,
+                  4782,
+                ],
+                "icon": "inv_cape_cloth_nazjatar_c_01.jpg",
+                "id": 167533,
+                "itemLevel": 410,
+                "quality": 4,
+              }
+            }
+            icon={false}
+            id={167533}
+            quality={4}
+          />,
+        ]
+      }
+      defaults="Your <0>{slotName}</0> is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly."
+      id="shared.enchantChecker.suggestions.noEnchant.label"
+      values={
+        Object {
+          "slotName": <WithI18n
+            defaults="Cloak"
+            id="common.slots.cloak"
+          />,
         }
-        icon={false}
-        id={167533}
-        quality={4}
-      >
-        Cloak
-      </ItemLink>
-       is missing an enchant. Apply a strong enchant to very easily increase your throughput slightly.
-    </React.Fragment>,
+      }
+    />,
     "stat": null,
   },
 ]
@@ -5772,7 +6018,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -5832,7 +6078,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -5892,7 +6138,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -5952,7 +6198,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -6012,7 +6258,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -6072,7 +6318,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
@@ -6132,7 +6378,7 @@ exports[`Frost Death Knight integration test: example log matches the checklist 
                   }
                 >
                    
-                  No
+                  common.no
                    
                    
                 </div>
